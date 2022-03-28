@@ -152,6 +152,25 @@ body {
     }
 }
 
+footer {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+
+    a {
+        text-decoration: none;
+        color: $dark-blue;
+        transition: color .3s;
+
+        &:hover {
+            color: #aaa;
+        }
+    }
+}
+
 @media screen and (min-width: 1000px) {
     body {
         background-position: -700px bottom;
@@ -230,12 +249,12 @@ body {
         column-gap: 20px;
     
         .card-body-name {
-            font-size: 2rem;
+            font-size: 1.8rem;
             color: $dark-blue;
         }
     
         .card-body-position {
-            font-size: 1.8rem;
+            font-size: 1.6rem;
         }
     }
 }
